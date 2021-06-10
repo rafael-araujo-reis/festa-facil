@@ -1,0 +1,68 @@
+:root {
+  --pink      : #FF6263;
+  --gray      : #888888;
+  --gray-dark : #424242;
+  --blue-light: #D8E9FF;
+
+  --bg: #FED293;
+}
+
+* {
+  font-family: 'Poppins', 'Open Sans', 'Arial', sans-serif;
+  padding    : 0;
+  margin     : 0;
+
+  box-sizing: border-box;
+}
+
+/******************
+Commons
+******************/
+body {
+  min-height      : 100vh;
+  background-color: var(--blue-light);
+  display         : flex;
+  flex-direction  : column;
+
+  align-items    : center;
+  justify-content: center;
+}
+
+.container {
+  width    : 80%;
+  max-width: 1000px;
+
+  padding: 1.5rem 3rem;
+
+  border-radius: 0.8rem;
+
+  background: var(--bg);
+}
+
+/******************
+Buttons
+******************/
+.btn {
+  border       : none;
+  border-radius: 50px;
+  padding      : 0.5rem 2.5rem;
+
+  font-size  : 1.1rem;
+  font-weight: 100;
+
+  box-shadow: 1px 2px 5px var(--gray);
+}
+
+.btn-primary {
+  background-color: var(--pink);
+  color           : white;
+}
+
+.marca {
+  font-family: 'Nunito';
+}
+
+.marca h1 {
+  color    : var(--gray-dark);
+  font-size: 4rem;
+}
