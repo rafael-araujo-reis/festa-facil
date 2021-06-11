@@ -228,3 +228,13 @@ RESPONSIVIDADE
     width: 100%;
   }
 }
+
+@media screen and (max-width:600px) {
+  .profile img {
+    float: none;
+  }
+
+  .profile p {
+    text-align: center;
+  }
+}
